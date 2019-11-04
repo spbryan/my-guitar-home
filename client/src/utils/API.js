@@ -1,5 +1,5 @@
 /********************************
-  * API.js for My Guitar Hub
+  * API.js for My Guitar Home
   * 
   * Build http requests from react with axios
   * 

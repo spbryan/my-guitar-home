@@ -37,7 +37,8 @@ mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/myguitarhub",
   {
     useCreateIndex: true,
-    useNewUrlParser: true
+    useNewUrlParser: true,
+    useUnifiedTopology: true
   }
 );
 

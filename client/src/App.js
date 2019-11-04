@@ -1,5 +1,5 @@
 /********************************
-  * App.js for My Guitar Hub
+  * App.js for My Guitar Home
   * 
   * @author Sean Bryan
   * 

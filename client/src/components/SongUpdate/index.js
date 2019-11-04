@@ -15,14 +15,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 class SongUpdate extends Component {
-  constructor(props) {
-    super(props);
-  }
-
-  // spb{"musicLinks":[],"videoLinks":[],"instructLinks":[],"tabLinks":[],
-  // "_id":"5db4b77616c4c91b04fc83f4","userId":"5db4945f6649102fc4f519f0",
-  // "title":"If You Could Read My Mind","artist":"Gordon Lightfoot",
-  // "genre":"Folk","guitarType":"Acoustic","proficiencyRating":"Master","__v":0}
+  // constructor(props) {
+  //   super(props);
+  // }
 
   state = {
     userId: '',
@@ -59,7 +54,7 @@ class SongUpdate extends Component {
 
   handleFormSubmit = event => {
     event.preventDefault();
-    API.addSong(this.state)
+    API.updateSong(this.state._id, this.state)
       .then(res => {
         console.log(res.data);
         this.redirectLocation = '/playlist';

@@ -6,20 +6,20 @@
   * 2019-10-29
   ********************************/
 import React, { Component } from 'react';
-import { Redirect } from 'react-router-dom';
+// import { Redirect } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import SongUpdate from "../components/SongUpdate";
-import Button from "react-bootstrap/Button";
-import con from "../utils/const";
-import API from "../utils/API";
+// import Button from "react-bootstrap/Button";
+// import con from "../utils/const";
+// import API from "../utils/API";
 import './Playlist.css';
 
 class Song extends Component {
-    constructor(props) {
-        super(props);
-    }
+    // constructor(props) {
+    //     super(props);
+    // }
 
     componentDidMount() {
         // if (!sessionStorage.getItem("userID")) {
